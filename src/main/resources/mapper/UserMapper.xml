@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.blog.dao.UserMapper" >
+    <insert id="add" parameterType="com.example.blog.model.User">
+        insert into (username,password,photo) values (#{username},#{password},#{photo})
+    </insert>
+    <select id="selectByNameAndPassword" parameterType="java.lang.String" resultType="com.example.blog.model.User">
+        select * from user where username=#{username} and password=#{password}
+    </select>
+    <select id="selectById" parameterType="java.lang.Integer" resultType="com.example.blog.model.User">
+        select * from user where id=#{id}
+    </select>
+    <select id="selectByName" parameterType="java.lang.String" resultType="com.example.blog.model.User">
+        select * from user where username=#{username}
+    </select>
+</mapper>

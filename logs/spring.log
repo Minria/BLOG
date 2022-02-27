@@ -1,0 +1,29 @@
+2022-02-26 21:06:58.863  INFO 18068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-26 21:06:58.867  INFO 18068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-26 21:07:08.048  INFO 18068 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-26 21:07:08.050  WARN 18068 --- [http-nio-8080-exec-6] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-02-26 21:07:08.152  INFO 18068 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-26 21:07:08.217  WARN 18068 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.blog.util.BLOGException: 账号已经存在]
+2022-02-26 21:07:24.335  INFO 18068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-26 21:07:24.456  INFO 18068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-26 21:08:37.464  INFO 7984 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_192 on HONOR-MAGICBOOK with PID 7984 (D:\Github\BLOG\target\classes started by wangfuming in D:\Github\BLOG)
+2022-02-26 21:08:37.465  INFO 7984 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2022-02-26 21:08:37.513  INFO 7984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-26 21:08:37.513  INFO 7984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-26 21:08:38.510  INFO 7984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-26 21:08:38.516  INFO 7984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-26 21:08:38.517  INFO 7984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-26 21:08:38.567  INFO 7984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-26 21:08:38.567  INFO 7984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1053 ms
+2022-02-26 21:08:39.138  INFO 7984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-26 21:08:39.164  INFO 7984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-26 21:08:39.175  INFO 7984 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.063 seconds (JVM running for 2.77)
+2022-02-26 21:08:54.118  INFO 7984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-26 21:08:54.119  INFO 7984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-26 21:08:54.119  INFO 7984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-02-26 21:08:59.634  INFO 7984 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-26 21:08:59.636  WARN 7984 --- [http-nio-8080-exec-8] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-02-26 21:08:59.742  INFO 7984 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-26 21:08:59.803  WARN 7984 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.blog.util.BLOGException: 账号或者密码错误]
+2022-02-26 21:10:09.030  INFO 7984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-26 21:10:09.037  INFO 7984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
